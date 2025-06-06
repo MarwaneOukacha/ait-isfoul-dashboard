@@ -36,17 +36,14 @@ function App() {
                     element: <h1 className="title">Verified Customers</h1>,
                 },
                 {
-                    path: "products",
-                    element: <h1 className="title">Products</h1>,
+                    path: "bookings",
+                    element: <h1 className="title">Bookings</h1>,
                 },
                 {
-                    path: "new-product",
-                    element: <h1 className="title">New Product</h1>,
+                    path: "new-bookings",
+                    element: <h1 className="title">New Booking</h1>,
                 },
-                {
-                    path: "inventory",
-                    element: <h1 className="title">Inventory</h1>,
-                },
+                
                 {
                     path: "settings",
                     element: <h1 className="title">Settings</h1>,

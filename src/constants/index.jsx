@@ -45,23 +45,18 @@ export const navbarLinks = [
         ],
     },
     {
-        title: "Products",
+        title: "Bookings",
         links: [
             {
-                label: "Products",
+                label: "Bookings",
                 icon: Package,
-                path: "/products",
+                path: "/bookings",
             },
             {
-                label: "New product",
+                label: "New booking",
                 icon: PackagePlus,
-                path: "/new-product",
-            },
-            {
-                label: "Inventory",
-                icon: ShoppingBag,
-                path: "/inventory",
-            },
+                path: "/new-bookings",
+            }
         ],
     },
     {

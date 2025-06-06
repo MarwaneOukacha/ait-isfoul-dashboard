@@ -20,7 +20,7 @@ const DashboardPage = () => {
                         <div className="w-fit rounded-lg bg-blue-500/20 p-2 text-blue-500 transition-colors dark:bg-blue-600/20 dark:text-blue-600">
                             <Package size={26} />
                         </div>
-                        <p className="card-title">Total Products</p>
+                        <p className="card-title">Total Bookings</p>
                     </div>
                     <div className="card-body bg-slate-100 transition-colors dark:bg-slate-950">
                         <p className="text-3xl font-bold text-slate-900 transition-colors dark:text-slate-50">25,154</p>
@@ -65,7 +65,7 @@ const DashboardPage = () => {
                         <div className="rounded-lg bg-blue-500/20 p-2 text-blue-500 transition-colors dark:bg-blue-600/20 dark:text-blue-600">
                             <CreditCard size={26} />
                         </div>
-                        <p className="card-title">Sales</p>
+                        <p className="card-title">Occupancy Rate</p>
                     </div>
                     <div className="card-body bg-slate-100 transition-colors dark:bg-slate-950">
                         <p className="text-3xl font-bold text-slate-900 transition-colors dark:text-slate-50">12,340</p>
@@ -174,7 +174,7 @@ const DashboardPage = () => {
             </div>
             <div className="card">
                 <div className="card-header">
-                    <p className="card-title">Top Orders</p>
+                    <p className="card-title">Top Bookings</p>
                 </div>
                 <div className="card-body p-0">
                     <div className="relative h-[500px] w-full flex-shrink-0 overflow-auto rounded-none [scrollbar-width:_thin]">
@@ -182,10 +182,10 @@ const DashboardPage = () => {
                             <thead className="table-header">
                                 <tr className="table-row">
                                     <th className="table-head">#</th>
-                                    <th className="table-head">Product</th>
+                                    <th className="table-head">Booking</th>
                                     <th className="table-head">Price</th>
                                     <th className="table-head">Status</th>
-                                    <th className="table-head">Rating</th>
+                                    <th className="table-head">CheckIn</th>
                                     <th className="table-head">Actions</th>
                                 </tr>
                             </thead>
