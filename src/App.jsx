@@ -4,6 +4,8 @@ import { ThemeProvider } from "@/contexts/theme-context";
 
 import Layout from "@/routes/layout";
 import DashboardPage from "@/routes/dashboard/page";
+import Customers from "./components/customers";
+import CreateCustomer from "./components/createCustomer";
 
 function App() {
     const router = createBrowserRouter([
@@ -25,15 +27,11 @@ function App() {
                 },
                 {
                     path: "customers",
-                    element: <h1 className="title">Customers</h1>,
+                    element: <Customers/>,
                 },
                 {
                     path: "new-customer",
-                    element: <h1 className="title">New Customer</h1>,
-                },
-                {
-                    path: "verified-customers",
-                    element: <h1 className="title">Verified Customers</h1>,
+                    element: <CreateCustomer/>,
                 },
                 {
                     path: "bookings",
