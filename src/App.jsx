@@ -6,6 +6,7 @@ import Layout from "@/routes/layout";
 import DashboardPage from "@/routes/dashboard/page";
 import Customers from "./components/customers";
 import CreateCustomer from "./components/createCustomer";
+import Bookings from "./components/bookings";
 
 function App() {
     const router = createBrowserRouter([
@@ -35,7 +36,7 @@ function App() {
                 },
                 {
                     path: "bookings",
-                    element: <h1 className="title">Bookings</h1>,
+                    element: <Bookings/>,
                 },
                 {
                     path: "new-bookings",
