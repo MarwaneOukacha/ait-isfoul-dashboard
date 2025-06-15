@@ -1,7 +1,7 @@
 import { ChartColumn, Home, NotepadText, Package, PackagePlus, Settings, ShoppingBag, UserCheck, UserPlus, Users } from "lucide-react";
 
-import ProfileImage from "@/assets/profile-image.jpg";
-import ProductImage from "@/assets/product-image.jpg";
+import ProfileImage from "@/assets/profile.jpg";
+import RoomImage from "@/assets/room4-2.jpg";
 
 export const navbarLinks = [
     {
@@ -169,95 +169,80 @@ export const recentSalesData = [
     },
 ];
 
-export const topProducts = [
-    {
-        number: 1,
-        name: "Wireless Headphones",
-        image: ProductImage,
-        description: "High-quality noise-canceling wireless headphones.",
-        price: 99.99,
-        status: "In Stock",
-        rating: 4.5,
+export const topBookings = [
+  {
+    number: 1,
+    bookingReference: "BK-20240601-001",
+    room: {
+      name: "Deluxe Suite",
+      image: RoomImage,
     },
-    {
-        number: 2,
-        name: "Smartphone",
-        image: ProductImage,
-        description: "Latest 5G smartphone with excellent camera features.",
-        price: 799.99,
-        status: "In Stock",
-        rating: 4.7,
+    customer: {
+      firstName: "John",
+      lastName: "Doe",
     },
-    {
-        number: 3,
-        name: "Gaming Laptop",
-        image: ProductImage,
-        description: "Powerful gaming laptop with high-end graphics.",
-        price: 1299.99,
-        status: "In Stock",
-        rating: 4.8,
+    checkIn: "2025-06-20",
+    checkOut: "2025-06-25",
+    status: "CONFIRMED",
+  },
+  {
+    number: 2,
+    bookingReference: "BK-20240601-002",
+    room: {
+      name: "Standard Room",
+      image: RoomImage,
     },
-    {
-        number: 4,
-        name: "Smartwatch",
-        image: ProductImage,
-        description: "Stylish smartwatch with fitness tracking features.",
-        price: 199.99,
-        status: "Out of Stock",
-        rating: 4.4,
+    customer: {
+      firstName: "Alice",
+      lastName: "Smith",
     },
-    {
-        number: 5,
-        name: "Bluetooth Speaker",
-        image: ProductImage,
-        description: "Portable Bluetooth speaker with deep bass sound.",
-        price: 59.99,
-        status: "In Stock",
-        rating: 4.3,
+    checkIn: "2025-06-18",
+    checkOut: "2025-06-22",
+    status: "PENDING",
+  },
+  {
+    number: 3,
+    bookingReference: "BK-20240601-003",
+    room: {
+      name: "Executive Suite",
+      image: RoomImage,
     },
-    {
-        number: 6,
-        name: "4K Monitor",
-        image: ProductImage,
-        description: "Ultra HD 4K monitor with stunning color accuracy.",
-        price: 399.99,
-        status: "In Stock",
-        rating: 4.6,
+    customer: {
+      firstName: "Robert",
+      lastName: "Johnson",
     },
-    {
-        number: 7,
-        name: "Mechanical Keyboard",
-        image: ProductImage,
-        description: "Mechanical keyboard with customizable RGB lighting.",
-        price: 89.99,
-        status: "In Stock",
-        rating: 4.7,
+    checkIn: "2025-07-01",
+    checkOut: "2025-07-05",
+    status: "CANCELLED",
+  },
+  {
+    number: 4,
+    bookingReference: "BK-20240601-004",
+    room: {
+      name: "Family Room",
+      image: RoomImage,
     },
-    {
-        number: 8,
-        name: "Wireless Mouse",
-        image: ProductImage,
-        description: "Ergonomic wireless mouse with precision tracking.",
-        price: 49.99,
-        status: "In Stock",
-        rating: 4.5,
+    customer: {
+      firstName: "Emma",
+      lastName: "Wilson",
     },
-    {
-        number: 9,
-        name: "Action Camera",
-        image: ProductImage,
-        description: "Waterproof action camera with 4K video recording.",
-        price: 249.99,
-        status: "In Stock",
-        rating: 4.8,
+    checkIn: "2025-06-30",
+    checkOut: "2025-07-03",
+    status: "CONFIRMED",
+  },
+  {
+    number: 5,
+    bookingReference: "BK-20240601-005",
+    room: {
+      name: "Penthouse",
+      image: RoomImage,
     },
-    {
-        number: 10,
-        name: "External Hard Drive",
-        image: ProductImage,
-        description: "Portable 2TB external hard drive for data storage.",
-        price: 79.99,
-        status: "Out of Stock",
-        rating: 4.5,
+    customer: {
+      firstName: "Liam",
+      lastName: "Brown",
     },
+    checkIn: "2025-07-10",
+    checkOut: "2025-07-15",
+    status: "PENDING",
+  },
 ];

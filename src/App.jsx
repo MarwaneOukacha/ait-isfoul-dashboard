@@ -7,6 +7,7 @@ import DashboardPage from "@/routes/dashboard/page";
 import Customers from "./components/customers";
 import CreateCustomer from "./components/createCustomer";
 import Bookings from "./components/bookings";
+import  Settings  from "./components/settings";
 
 function App() {
     const router = createBrowserRouter([
@@ -45,7 +46,7 @@ function App() {
                 
                 {
                     path: "settings",
-                    element: <h1 className="title">Settings</h1>,
+                    element: <Settings/>,
                 },
             ],
         },
