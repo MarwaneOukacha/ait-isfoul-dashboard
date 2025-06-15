@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@schedule-x/calendar": "^2.32.0",
+    "@schedule-x/events-service": "^2.32.0",
+    "@schedule-x/react": "^2.32.0",
+    "@schedule-x/theme-default": "^2.32.0",
     "@uidotdev/usehooks": "^2.4.1",
     "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
     "file-saver": "^2.0.5",
     "lucide-react": "^0.441.0",
     "react": "^18.3.1",

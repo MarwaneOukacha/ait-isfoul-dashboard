@@ -8,6 +8,7 @@ import Customers from "./components/customers";
 import CreateCustomer from "./components/createCustomer";
 import Bookings from "./components/bookings";
 import  Settings  from "./components/settings";
+import CalendarComponent from "./components/calendar";
 
 function App() {
     const router = createBrowserRouter([
@@ -21,7 +22,7 @@ function App() {
                 },
                 {
                     path: "analytics",
-                    element: <h1 className="title">Analytics</h1>,
+                    element: <CalendarComponent/>,
                 },
                 {
                     path: "reports",
@@ -48,6 +49,7 @@ function App() {
                     path: "settings",
                     element: <Settings/>,
                 },
+                
             ],
         },
     ]);
