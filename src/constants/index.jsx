@@ -1,4 +1,4 @@
-import { ChartColumn,Calendar , Home, NotepadText, Package, PackagePlus, Settings, ShoppingBag, UserCheck, UserPlus, Users } from "lucide-react";
+import { House   ,Calendar , Home, NotepadText, Package, PackagePlus, Settings, ShoppingBag, UserCheck, UserPlus, Users } from "lucide-react";
 
 import ProfileImage from "@/assets/profile.jpg";
 import RoomImage from "@/assets/room4-2.jpg";
@@ -36,6 +36,16 @@ export const navbarLinks = [
                 label: "New customer",
                 icon: UserPlus,
                 path: "/new-customer",
+            }
+        ],
+    },
+    {
+        title: "Rooms",
+        links: [
+            {
+                label: "Rooms",
+                icon: House   ,
+                path: "/rooms",
             }
         ],
     },
