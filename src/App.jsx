@@ -21,7 +21,7 @@ function App() {
                     element: <DashboardPage />,
                 },
                 {
-                    path: "analytics",
+                    path: "calendar",
                     element: <CalendarComponent/>,
                 },
                 {
