@@ -1,10 +1,11 @@
 import axios from 'axios';
-import { getAuthToken, refreshToken, logout } from '../services/auth';
+import { getAuthToken, refreshToken, logout, API_BASE } from '../services/auth';
 
 const SKIP_AUTH_PATHS = ['/login','/verify-otp', '/refresh-token','/customers/add','/rooms/search/hotel','/rooms/isRoomAvailable','/rooms/room/','/email/contact'];
+export const API_BASE = 'http://localhost:8088'; 
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:8088',
+  baseURL: API_BASE,
 });
 
 // Request interceptor
